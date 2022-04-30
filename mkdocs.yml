@@ -1,1 +1,7 @@
-site_name: My Docs
+site_name: notify | RJDev
+site_url: https://rjdev-rbx.github.io/notify/
+nav:
+  - Home: index.md
+  - About: about.md
+theme:
+  name: material
