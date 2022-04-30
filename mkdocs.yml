@@ -1,5 +1,6 @@
 site_name: notify | RJDev
 site_url: https://rjdev-rbx.github.io/notify/
+repo_url: https://github.com/rjdev-rbx/notify/
 nav:
   - Home: index.md
   - About: about.md
