@@ -54,4 +54,5 @@ markdown_extensions:
 nav:
   - Home:
     - Introduction: index.md
+    - Installation: installation.md
   - About: about.md
