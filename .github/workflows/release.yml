@@ -22,10 +22,14 @@ jobs:
         run: rojo build src/default.project.json --output notify.rbxm
         
       - name: Git Release
-        uses: anton-yurchenko/git-release@v4.2.2
+        uses: anton-yurchenko/git-release@v3.4.3
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DRAFT_RELEASE: "false"
+          PRE_RELEASE: "false"
           CHANGELOG_FILE: "docs/changelog.md"
+          ALLOW_EMPTY_CHANGELOG: "false"
+          ALLOW_TAG_PREFIX: "true"
         with:
           args: |
             ./notify.rbxm
