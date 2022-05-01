@@ -43,6 +43,15 @@ extra:
     - icon: fontawesome/brands/discord
       link: https://discord.gg/N6scHBn3mh
 
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+
 nav:
-  - Home: index.md
+  - Home:
+    - Introduction: index.md
   - About: about.md
