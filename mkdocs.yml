@@ -1,8 +1,48 @@
 site_name: notify | RJDev
+site_description: Documentation for notify
+site_author: Rohan Jagpal
 site_url: https://rjdev-rbx.github.io/notify/
+
+repo_name: RJDev-RBX/notify
 repo_url: https://github.com/rjdev-rbx/notify/
+edit_uri = ""
+
+theme:
+  name: material
+  logo: https://rjdev.xyz/i/4TwPKheSoI.png
+  favicon: https://rjdev.xyz/i/4TwPKheSoI.png
+  features:
+    - navigation.tabs
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  highlightjs: true
+  hljs_languages:
+    - lua
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+    link: https://github.com/rjdev-rbx/
+    - icon: fontawesome/brands/twitter
+    link: https://twitter.com/RJDev_RBX
+    - icon: fontawesome/brands/discord
+    link: https://discord.gg/N6scHBn3mh
+
 nav:
   - Home: index.md
   - About: about.md
-theme:
-  name: material
