@@ -2,7 +2,7 @@ name: Publish To Roblox
 
 on:
   push:
-    branches: #  Act on master branch commit
+    branches: 
     - main
 
 jobs:
@@ -24,6 +24,7 @@ jobs:
       run: rojo --version
 
     - name: Deploy
-      run: rojo upload --cookie "$ROBLOSECURITY" --asset_id 9516265838 src
+      run: |
+        rojo upload --cookie "$ROBLOSECURITY" --asset_id 9516265838 src
       env:
         ROBLOSECURITY: ${{ secrets.ROBLOSECURITY }}
