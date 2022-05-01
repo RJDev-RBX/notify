@@ -37,11 +37,11 @@ theme:
 extra:
   social:
     - icon: fontawesome/brands/github-alt
-    link: https://github.com/rjdev-rbx/
+      link: https://github.com/rjdev-rbx/
     - icon: fontawesome/brands/twitter
-    link: https://twitter.com/RJDev_RBX
+      link: https://twitter.com/RJDev_RBX
     - icon: fontawesome/brands/discord
-    link: https://discord.gg/N6scHBn3mh
+      link: https://discord.gg/N6scHBn3mh
 
 nav:
   - Home: index.md
