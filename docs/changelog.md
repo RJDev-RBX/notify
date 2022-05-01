@@ -12,11 +12,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Hopes & Dreams
 *There are no hopes & dreams for this project, we think we're working on the best ideas right now!*
 
----
-
-## [1.0.0] - May 1 2022
+## [1.0.0] - 2022-5-1
 ### Added
 - This changelog file.
 - Basic installation instructions.
 - Automatic release creation through GitHub Actions.
 - The first release of this module.
+
+[1.0.0]: https://github.com/rjdev-rbx/notify/releases/tag/v1.0.0
