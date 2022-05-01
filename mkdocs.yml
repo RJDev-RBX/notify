@@ -5,7 +5,7 @@ site_url: https://rjdev-rbx.github.io/notify/
 
 repo_name: RJDev-RBX/notify
 repo_url: https://github.com/rjdev-rbx/notify/
-edit_uri = ""
+edit_uri: ""
 
 theme:
   name: material
