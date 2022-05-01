@@ -8,7 +8,7 @@ Getting started is simple, all you have to do is require and initialise the `not
 ## Quickstart
 To start sending notifications, do the following in a server script:
 ```lua
-local Notify = require(game:GetService("ReplicatedStorage").notify)
+local Notify = require(game:GetService("ServerStorage").notify)
 Notify:Init()
 
 Notify:notifyPlayer(player, notifyType, message)
