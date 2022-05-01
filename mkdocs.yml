@@ -56,3 +56,4 @@ nav:
     - Introduction: index.md
     - Installation: installation.md
   - About: about.md
+  - Changelog: changelog.md
