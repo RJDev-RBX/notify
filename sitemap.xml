@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://rjdev-rbx.github.io/notify/</loc>
+         <lastmod>2022-07-10</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://rjdev-rbx.github.io/notify/about/</loc>
+         <lastmod>2022-07-10</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://rjdev-rbx.github.io/notify/changelog/</loc>
+         <lastmod>2022-07-10</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://rjdev-rbx.github.io/notify/contributing/</loc>
+         <lastmod>2022-07-10</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://rjdev-rbx.github.io/notify/installation/</loc>
+         <lastmod>2022-07-10</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+</urlset>
